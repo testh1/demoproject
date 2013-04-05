@@ -1,0 +1,3 @@
+{"ts":1365133493877,"silentsave":true,"restoring":false,"patch":[[]],"length":0}
+{"contributors":[],"silentsave":false,"ts":1365133522327,"patch":[[{"diffs":[[1,"var http = require('http');\n\n// Configure our HTTP server to respond with Hello World to all requests.\nvar server = http.createServer(function (request, response) {\n  response.writeHead(200, {\"Content-Type\": \"text/plain\"});\n  response.end(\"Hello World\\n\");\n});\n\nserver.listen(process.env.PORT || 8000);"]],"start1":0,"start2":0,"length1":0,"length2":302}]],"length":302,"saved":false}
+{"ts":1365133526705,"patch":[[{"diffs":[[0,"PORT"],[-1," || 8000"],[0,");"]],"start1":288,"start2":288,"length1":14,"length2":6}]],"length":294,"saved":false}
